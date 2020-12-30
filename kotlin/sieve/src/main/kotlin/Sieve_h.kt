@@ -1,6 +1,6 @@
 import kotlin.math.sqrt
 
-object Sieve {
+object Sieve_h {
 
     fun primesUpTo(upperBound: Int): List<Int> {
         val nonprimes: MutableSet<Int> = mutableSetOf<Int>()
